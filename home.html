@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/fontawesome.min.css">
+    <style>
+        body{
+            background-color:  rgb(37, 70, 236); 
+        }
+        *{
+            text-decoration: none;
+
+        }
+        .navbar{
+            background-color: white;
+            padding-right: 15px ;
+            padding-left: 15px;
+            /* border-radius: 10px; */
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            position: sticky;
+            
+            z-index: 1000; 
+        }
+        .navbardiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .name{
+            font-size: 35px;
+            display: inline;
+        }
+        li{
+            list-style: none;
+            display: inline;
+        }
+        li:hover{
+            padding:3px ;
+            border-bottom: 2px solid rgb(37, 70, 236); 
+            
+            
+        }
+        li a{
+            color: black;
+            font-size: 18px;
+            padding: 30px;
+           
+            
+        }
+        li a:hover{
+            color:blue
+        }
+        button{
+            background-color: rgb(37, 70, 236); 
+            border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+            border-style: none;
+            margin-left: 10px;
+        }
+        button a{
+            color: white;
+            font-weight: bolder;
+
+        }
+        .footer{
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+           margin: -10px; 
+            
+        }
+        input{
+            margin-left: 50px;
+        }
+        .box{
+            /* display: grid; */
+            background-color: white;
+            margin: 10px;
+            width: 90%;
+            grid-template-columns: repeat(3,1fr);
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+        .wholebox{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin-bottom: 50px;
+        }
+        .container{
+            margin: 20px;
+
+        }
+        input{
+            border-radius: 30px;
+            /* border-style:none; */
+            border: 1px solid rgb(37, 70, 236); 
+            padding: 5px;
+        }
+        img{
+            width: 300px  ;
+            height: 350px;
+            margin-left: 10px;
+            border-radius: 20px;
+              }
+         .name{
+            color:rgb(37, 70, 236); 
+            font-family: monospace;
+         } 
+         .fa-brands fa-square-instagram{
+            font-size: 70px;
+         }   
+         @media (max-width:450) {
+            
+         } 
+        
+    </style>
+</head>
+<body>
+    <div clas="header">
+        <nav class="navbar">
+            <div class ="navbardiv">
+               <div class="name">Shoe mart</div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About</a></li>
+                    <button><a href="login.html">Login</a></button>
+                    <button><a href="register.html">Register</a></button>
+                </ul>
+            </div>
+        
+        </nav>
+        <div class="container">
+          <div class="wholebox">
+            <div class="box">
+                <img src="shoe2.jpg" alt="" width="200px">
+              <h3>fast</h3>
+              <p> regular casual</p>
+             
+            </div>
+            <div class="box">
+                <img src="shoe3.jpg" alt="" width="200px">
+               <h3>BULL</h3>
+              
+            </div>
+            <div class="box">
+                <img src="shoe2.jpg" alt="" width="200px">
+                <h3>fast</h3>
+                <p> regular casual</p>
+            </div>
+            <div class="box">
+                <img src="shoe3.jpg" alt="" width="200px">
+                <h3>BULL</h3>
+               
+            </div>
+    
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+        <div>
+           Copyright@2022.All rights reseverd <by class="Thejeetrends"></by>
+    </div>
+</body>
+</html>
